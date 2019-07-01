@@ -1,0 +1,17 @@
+.bodyStyle {
+    background: #fefefe;
+}
+
+.mainHeader {
+    color: tomato;
+    font-size: 64px;
+}
+
+.sectionHeader {
+    background: green;
+}
+
+.diaryHeader {
+    color: aqua;
+    background: grey;
+}
