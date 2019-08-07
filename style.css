@@ -1,17 +1,110 @@
-.bodyStyle {
-    background: salmon;
+.body {
+    background: #c9cebd;
 }
 
-.mainHeader {
+.about {
+
+}
+
+.about__header {
+    color: #1460aa;
+}
+
+.about__link {
+    color: #1A936F;
+}
+
+.about__paragraph {
+    padding: 16px;
+    font-size: 16px;
+}
+
+.about__paragraph--color {
+    color: #f34213;
+    font-size: 12px;
+}
+
+.about__picture {
+    width: 100%;
+    max-width: 100px;
+    display: block;
+    float: left;
+    margin: 0 16px 0 0;
+}
+
+.article {
+
+}
+
+.article__header {
     color: tomato;
-    font-size: 64px;
+    font-size: 24px;
 }
 
-.sectionHeader {
-    background: green;
+.article__paragraph {
+
 }
 
-.diaryHeader {
+.article__footer {
+
+}
+
+.article__picture {
+
+}
+
+.article__picture2{
+    width: 100%;
+    max-width: 100px;
+    display: block;
+    float: left;
+    margin: 0 16px 0 0;
+}
+
+.day {
+
+}
+
+.day__header {
     color: aqua;
     background: grey;
+}
+
+.day__link {
+    color: #1A936F;
+}
+
+.day__paragraph {
+    padding: 16px;
+    font-size: 16px;
+}
+
+.diary {
+
+}
+
+.diary__header {
+    background: green;
+} 
+
+.footer {
+    font-size: 10px;
+}
+
+.navigation {
+
+}
+
+.navigation__link {
+    color: #1A936F;
+    font-size: 12px;
+}
+
+.header {
+
+}
+
+.header__main {
+    color: tomato;
+    font-size: 32px;
 }

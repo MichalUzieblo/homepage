@@ -9,23 +9,28 @@
 	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body class="bodyStyle">
-	<header>
-		<a href="index.html">Strona główna</a>
+<body class="body">
+	<header class="navigation">
+		<a class="navigation__link" href="index.html">Strona główna</a>
 		<br>
-		<a href="pamietniczek/20190525_rightHTML.html">Jak stworzyć prawidłowego html-a?</a>
-		<a href="pamietniczek/20190526_hardIssue.html">Czy uczestnistwo w szkoleniu to trudna sprawa?</a>
-		<a href="pamietniczek/20190620_3forMe.html">3 godziny dla siebie</a>
-		<a href="pamietniczek/20190621_adventureTrader.html">Adventure Trader</a>
-		<a href="pamietniczek/20190623_independentTrader.html">Independent Trader</a>
+		<a class="navigation__link" href="pamietniczek/20190525_rightHTML.html">Jak stworzyć prawidłowego html-a?</a>
+		<br>
+		<a class="navigation__link" href="pamietniczek/20190526_hardIssue.html">Czy uczestnistwo w szkoleniu to trudna sprawa?</a>
+		<br>
+		<a class="navigation__link" href="pamietniczek/20190620_3forMe.html">3 godziny dla siebie</a>
+		<br>
+		<a class="navigation__link" href="pamietniczek/20190621_adventureTrader.html">Adventure Trader</a>
+		<br>
+		<a class="navigation__link" href="pamietniczek/20190623_independentTrader.html">Independent Trader</a>
 	</header>
 	<main>
-		<header>
-			<h1 class="mainHeader">Michał Uziębło - strona domowa</h1>
+		<header class="header">
+			<h1 class="header__main">Michał Uziębło - strona domowa</h1>
 		</header>
-		<section>
-			<h2 class="sectionHeader">Kim jestem?</h2>
-			<p>
+		<section class="about">
+			<h2 class="about__header">Kim jestem?</h2>
+			<p class="about__paragraph">
+				<img src="pamietniczek/MU_small.png" alt="Zdjęcie autora" class="about__picture">
 				Ekspert ds. Jakości technicznej z dużym doświadczeniem w zakresie odpowiednich standardów technicznych,
 				inżynierii wartości, analizy danych, wydajności budynków, projektowania konstrukcji żelbetowych. Członek
 				zespołu, który zaprojektował kilka dużych
@@ -33,50 +38,53 @@
 				warszawskich
 				wieżowcach. Entuzjasta programowania i analizy danych PHP, MySql, GIT.
 				<br>
-				<a href="#pamietniczek">Przejdź do pamiętniczka</a>
+				<a class="about__link" href="#pamietniczek">Przejdź do pamiętniczka</a>
+			</p>
+			<p class="about__paragraph about__paragraph--color">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim natus similique, ducimus accusantium maxime sint numquam illum aliquid labore, aut quaerat vitae inventore unde consequuntur sit a, blanditiis quo consectetur?
 			</p>
 		</section>
 
-		<section id="pamietniczek">
-			<h2 class="sectionHeader">Pamiętniczek</h2>
-			<section>
-				<h3 class="diaryHeader">Jak stworzyć prawidłowego html-a?</h3>
-				<p>
+		<section class="diary" id="pamietniczek">
+			<h2 class="diary__header">Pamiętniczek</h2>
+			<section class="day">
+				<h3 class="day__header">Jak stworzyć prawidłowego html-a?</h3>
+				<p class="day__paragraph">
 					Tworzenie zgodnego ze standardami HTML-a to sztuka.
 					<br>
-					<a href="pamietniczek/20190525_rightHTML.html">Przejdź do artykułu</a>
+					<a class="day__link" href="pamietniczek/20190525_rightHTML.html">Przejdź do artykułu</a>
 				</p>
 			</section>
-			<section>
-				<h3 class="diaryHeader">Czy uczestnistwo w szkoleniu to trudna sprawa?</h3>
-				<p>
+			<section class="day">
+				<h3 class="day__header">Czy uczestnistwo w szkoleniu to trudna sprawa?</h3>
+				<p class="day__paragraph">
 					Na początku tak jak przypuszczałem jest przyjemnie i prosto.
 					<br>
-					<a href="pamietniczek/20190526_hardIssue.html">Przejdź do artykułu</a>					
+					<a class="day__link" href="pamietniczek/20190526_hardIssue.html">Przejdź do artykułu</a>					
 				</p>
 			</section>
-			<section>
-				<h3 class="diaryHeader">3 godziny dla siebie</h3>
-				<p>
+			<section class="day">
+				<h3 class="day__header">3 godziny dla siebie</h3>
+				<p class="day__paragraph">
 					Czas dla siebie
 					<br>
-					<a href="pamietniczek/20190620_3forMe.html">Przejdź do artykułu</a>
+					<a class="day__link" href="pamietniczek/20190620_3forMe.html">Przejdź do artykułu</a>
 				</p>
 			</section>
-			<section>
-				<h3 class="diaryHeader">Adventure Trader</h3>
-				<p>
+			<section class="day">
+				<h3 class="day__header">Adventure Trader</h3>
+				<p class="day__paragraph"> 
 					Jestem Adventure Traderem
 					<br>
-					<a href="pamietniczek/20190621_adventureTrader.html">Przejdź do artykułu</a>
+					<a class="day__link" href="pamietniczek/20190621_adventureTrader.html">Przejdź do artykułu</a>
 				</p>
 			</section>
-			<section>
-				<h3 class="diaryHeader">Independent Trader</h3>
-				<p>
+			<section class="day">
+				<h3 class="day__header">Independent Trader</h3>
+				<p class="day__paragraph">
 					Jestem jednak Independent Traderem
 					<br>
-					<a href="pamietniczek/20190623_independentTrader.html">Przejdź do artykułu</a>
+					<a class="day__link" href="pamietniczek/20190623_independentTrader.html">Przejdź do artykułu</a>
 				</p>
 			</section>
 		</section>
@@ -85,7 +93,7 @@
 
 	</main>
 
-	<footer>
+	<footer class="footer">
 		Strona domowa Michała Uziębło, wszystkie treści są efektem uczestniczenia w kursie Maćka Korsana "WTF:Co ten
 		frontend?"
 	</footer>
