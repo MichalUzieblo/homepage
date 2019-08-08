@@ -3,7 +3,7 @@
 }
 
 .about {
-
+    position: relative;
 }
 
 .about__header {
@@ -12,11 +12,13 @@
 
 .about__link {
     color: #1A936F;
+    text-decoration: none;
 }
 
 .about__paragraph {
     padding: 16px;
     font-size: 16px;
+    clear: left;
 }
 
 .about__paragraph--color {
@@ -26,7 +28,7 @@
 
 .about__picture {
     width: 100%;
-    max-width: 100px;
+    max-width: 200px;
     display: block;
     float: left;
     margin: 0 16px 16px 0;
@@ -61,6 +63,19 @@
     margin: 0 16px 0 0;
 }
 
+.box {
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+    padding: 10px;
+    border: 10px solid red;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    left: 50%;
+}
+
+
 .day {
 
 }
@@ -68,10 +83,12 @@
 .day__header {
     color: aqua;
     background: grey;
+    border-radius: 3px;
 }
 
 .day__link {
     color: #1A936F;
+    text-decoration: none;
 }
 
 .day__paragraph {
@@ -85,6 +102,7 @@
 
 .diary__header {
     background: green;
+    border-radius: 3px;
 } 
 
 .footer {
@@ -99,12 +117,19 @@
 }
 
 .navigation {
-
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    background: #fff;
 }
 
 .navigation__link {
     color: #1A936F;
     font-size: 12px;
+    text-decoration: none;
 }
 
 .header {
@@ -114,4 +139,12 @@
 .header__main {
     color: tomato;
     font-size: 32px;
+}
+
+.footer__link {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #1A936F;
+    text-decoration: none;
 }
