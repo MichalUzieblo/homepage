@@ -32,6 +32,7 @@
     display: block;
     float: left;
     margin: 0 16px 16px 0;
+    border-radius: 25px;
 }
 
 .article {
