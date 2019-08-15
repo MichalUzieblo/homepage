@@ -6,23 +6,43 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
+	<link href="normalize.css" rel="stylesheet" type="text/css">
 	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body class="body">
-	<header class="navigation">
-		<a class="navigation__link" href="index.html">Strona główna</a>
+	<header class="site-header">
+		<nav class="navigation">
+			<ul class="navigation__list">
+				<li class="navigation__item">
+					<a class="navigation__link" href="index.html">Strona główna</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="pamietniczek/20190525_rightHTML.html">Jak stworzyć prawidłowego
+						html-a?</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="pamietniczek/20190526_hardIssue.html">Czy uczestnistwo w szkoleniu
+						to trudna
+						sprawa?</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="pamietniczek/20190620_3forMe.html">3 godziny dla siebie</a>
 
-		<a class="navigation__link" href="pamietniczek/20190525_rightHTML.html">Jak stworzyć prawidłowego html-a?</a>
-		
-		<a class="navigation__link" href="pamietniczek/20190526_hardIssue.html">Czy uczestnistwo w szkoleniu to trudna sprawa?</a>
-		
-		<a class="navigation__link" href="pamietniczek/20190620_3forMe.html">3 godziny dla siebie</a>
-		
-		<a class="navigation__link" href="pamietniczek/20190621_adventureTrader.html">Adventure Trader</a>
-		
-		<a class="navigation__link" href="pamietniczek/20190623_independentTrader.html">Independent Trader</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="pamietniczek/20190621_adventureTrader.html">Adventure Trader</a>
+
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="pamietniczek/20190623_independentTrader.html">Independent
+						Trader</a>
+
+				</li>
+			</ul>
+		</nav>
 	</header>
+
 	<main class="main" id="top">
 		<header class="header">
 			<h1 class="header__main">Michał Uziębło - strona domowa</h1>
@@ -42,9 +62,25 @@
 				<a class="about__link" href="#pamietniczek">Przejdź do pamiętniczka</a>
 			</p>
 			<p class="about__paragraph about__paragraph--color">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim natus similique, ducimus accusantium maxime sint numquam illum aliquid labore, aut quaerat vitae inventore unde consequuntur sit a, blanditiis quo consectetur?
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim natus similique, ducimus accusantium
+				maxime sint numquam illum aliquid labore, aut quaerat vitae inventore unde consequuntur sit a,
+				blanditiis quo consectetur?
 			</p>
 			<p class="about__paragraph about__paragraph--js"></p>
+			<section class="hobby">
+				<h3 class="hobby__header">Hobby</h3>
+				<ul class="hobby__list">
+					<li>piłka nożna z Mikołajem</li>
+					<li>spanie</li>
+					<li>co ten frontend??
+						<ol>
+							<li>początek</li>
+							<li>środek</li>
+							<li>koniec</li>
+						</ol>
+					</li>
+				</ul>
+			</section>
 		</section>
 
 		<section class="diary" id="pamietniczek">
@@ -62,7 +98,7 @@
 				<p class="day__paragraph">
 					Na początku tak jak przypuszczałem jest przyjemnie i prosto.
 					<br>
-					<a class="day__link" href="pamietniczek/20190526_hardIssue.html">Przejdź do artykułu</a>					
+					<a class="day__link" href="pamietniczek/20190526_hardIssue.html">Przejdź do artykułu</a>
 				</p>
 			</section>
 			<section class="day">
@@ -75,7 +111,7 @@
 			</section>
 			<section class="day">
 				<h3 class="day__header">Adventure Trader</h3>
-				<p class="day__paragraph"> 
+				<p class="day__paragraph">
 					Jestem Adventure Traderem
 					<br>
 					<a class="day__link" href="pamietniczek/20190621_adventureTrader.html">Przejdź do artykułu</a>
@@ -91,7 +127,43 @@
 			</section>
 		</section>
 
-
+		<section class="glossary">
+			<h2 class="glossary__header">Słowniczek</h2>
+			<dl>
+				<dt>CSS</dt>
+				<dd>style (to co widzisz jak jest ładne, albo brzydkie</dd>
+				<dt>HTML</dt>
+				<dd>treść + szielet strony</dd>
+				<dt>JavaScript</dt>
+				<dt>Es6</dt>
+				<dd>rzeczy, których teraz się uczę</dd>
+			</dl>
+		</section>
+		<section class="data">
+			<h2 class="data__header">Dane</h2>
+			<table>
+				<caption>Oceny semestralne</caption>
+				<thead>
+					<tr>
+						<th>Imię i nazwisko</th>
+						<th>Ocena</th>
+						<th>Data</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Michał Uziębło</td>
+						<td>4</td>
+						<td>2019.08.13</td>
+					</tr>
+					<tr>
+						<td>Koś Tam</td>
+						<td>5</td>
+						<td>2019.07.10</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
 
 	</main>
 

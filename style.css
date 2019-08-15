@@ -1,9 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
 .body {
     background: #c9cebd;
 }
 
 .about {
-    position: relative;
+
 }
 
 .about__header {
@@ -110,6 +118,15 @@
     font-size: 10px;
 }
 
+.hobby {
+
+}
+
+.hobby__list {
+    list-style: none;
+    padding: 0;
+}
+
 .main {
     width: 100%;
     max-width: 700px;
@@ -118,19 +135,22 @@
 }
 
 .navigation {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    box-sizing: border-box;
-    padding: 10px;
-    background: #fff;
+
+}
+
+.navigation__item {
+    display: inline;
 }
 
 .navigation__link {
     color: #1A936F;
     font-size: 12px;
     text-decoration: none;
+}
+
+.navigation__list {
+    list-style: none;
+    padding: 0;
 }
 
 .header {
@@ -148,4 +168,14 @@
     right: 10px;
     color: #1A936F;
     text-decoration: none;
+}
+
+.site-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    background: #fff;
 }
