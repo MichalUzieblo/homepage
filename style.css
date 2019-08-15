@@ -61,6 +61,8 @@ html {
 }
 
 .article__picture {
+    width: 100%;
+    max-width: 700px;
 
 }
 
@@ -140,6 +142,7 @@ html {
 
 .navigation__item {
     display: inline;
+    padding: 0 2px;
 }
 
 .navigation__link {
@@ -151,6 +154,9 @@ html {
 .navigation__list {
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
 }
 
 .header {
