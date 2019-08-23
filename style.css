@@ -8,6 +8,7 @@ html {
 
 .body {
     background: #c9cebd;
+    background: linear-gradient(30deg, rgba(88,87,87,1) 0%, rgba(143,143,143,1) 61%, rgba(9,9,121,1) 100%);
 }
 
 .about {
